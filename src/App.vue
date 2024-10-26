@@ -1,10 +1,10 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import TheNav from '@/components/TheNav.vue'
 </script>
 
 <template>
   <nav>
-    <RouterLink to="/">Home</RouterLink>
+    <TheNav />
   </nav>
 
   <RouterView />
