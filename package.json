@@ -11,6 +11,10 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "cores": "^0.8.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.0",
+    "nodemon": "^3.1.7",
     "pinia": "^2.2.4",
     "vue": "^3.5.12",
     "vue-router": "^4.4.5"

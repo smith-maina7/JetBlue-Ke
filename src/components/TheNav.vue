@@ -1,13 +1,13 @@
 <template>
   <nav class="navbar">
     <!-- Home Link with JetBlue Plane Image -->
-    <router-link to="/" class="nav-logo">
+    <router-link to="/performance" class="nav-logo">
       <img src="/public/image/Jetblue1.jpg" alt="JetBlue Logo" />
     </router-link>
 
     <!-- Navigation Links -->
     <div class="nav-links">
-      <router-link to="/team-managers">Team Managers</router-link>
+      <router-link to="/performance">Performance</router-link>
       <router-link to="/coaching">Coaching</router-link>
     </div>
   </nav>
